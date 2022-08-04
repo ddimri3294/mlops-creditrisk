@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name:  predictclass
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: predictclassifier
+  template:
+    metadata:
+      labels:
+        app: predictclassifier
+    spec:
+      containers:
+      - name: cv-app
+        image: gcr.io/mlops-358310/mlopswebapp:v2
+        ports:
+        - containerPort: 8501

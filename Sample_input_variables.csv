@@ -1,0 +1,6 @@
+Count Active Loans,Count Closed Loans,Count Total Loans,Count Clean Accounts,Count Accounts with 0_90 DPD,Count Accounts with GT_90 DPD,Max Disbursed Amount,Min Disbursed Amount,max_dpd_9_months,Count Accounts with ls 20k,Count 60+ DPD in last 9 Reported Months,Count 90+ DPD in last 12 Reported Months,Current Amount Overdue,Count written off/wilful default/suit filed/settled accounts,Count Active Gold Loans,Count Active PL/BL Loans,Count Gold Loan in last 6 Months,Months_since_last_delinquent
+0.0,7.0,7.0,7.0,0.0,0.0,300000.0,70197.04,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,40.0
+1.0,2.0,3.0,1.0,1.0,1.0,1350000.0,50000.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14.0
+1.0,1.0,2.0,0.0,0.0,2.0,150000.0,70197.04,91.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,4.0
+2.0,6.0,8.0,8.0,0.0,0.0,50000.0,15000.0,0.0,2.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,40.0
+4.0,1.0,5.0,4.0,1.0,0.0,379200.0,42000.0,19.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,1.0,3.0

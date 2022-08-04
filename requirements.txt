@@ -1,0 +1,14 @@
+hjson==3.0.2
+httplib2==0.20.4
+idna==3.3
+pandas
+importlib-metadata
+numpy
+Pillow
+python-dateutil
+python-dotenv
+python-slugify
+PyYAML
+streamlit
+requests
+lightgbm
