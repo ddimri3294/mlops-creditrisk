@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name:  predictclass
+  name:  creditrisk
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: predictclassifier
+      app: creditriskpredictor
   template:
     metadata:
       labels:
-        app: predictclassifier
+        app: creditriskpredictor
     spec:
       containers:
       - name: cv-app
-        image: gcr.io/mlops-358310/mlopswebapp:v2
+        image: gcr.io/mlops-358310/mlopswebapp:v1
         ports:
         - containerPort: 8501
